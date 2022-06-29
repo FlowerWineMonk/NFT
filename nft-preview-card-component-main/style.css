@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    
+}
+.attribution{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: flex-start;
+    background-color: hsl(216, 50%, 16%);
+}
+.crypto{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: -1px;
+      height: 250px;
+      width: 250px;
+      border-radius: 10px; 
+}
+.equill{
+    color: white;
+}
+.paragraph{
+    font-size: 17px;
+    color: hsl(215, 51%, 70%);
+}
+.shape{
+    width: 10px;
+}
+.two{
+    display: inline-block;
+    width: 10px;
+}
+.three{
+    display: inline-block;
+    color:cyan;
+}
+.clock{
+    display: inline-block;
+    justify-items: right;
+}
+.jux{
+    font-size: 15px;
+    color: hsl(215, 51%, 70%);
+}
+.line-1{
+    color: hsl(215, 51%, 70%);
+    width: 100%;
+}
+.photo{
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.avatar{
+    display: inline;
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+}
+.final{
+     text-decoration: none;
+     color: white;
+}
+.crypto:hover{
+    color: cyan;
+}
+.equill:hover{
+    color: cyan;
+}
+.final:hover{
+    color: cyan;
+}
